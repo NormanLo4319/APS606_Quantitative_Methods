@@ -1,4 +1,4 @@
-# APS606 Quantitative Methods
+# APS606 Quantitative Methods:
 This course aims to look at the critical approaches to Asia Pacific research development and evaluation of research design in Asia Pacific Studies, including application of theory to research questions and developing a proposal for research which will be drawn from a wide range of topics contained within: Asia Pacific world views and epistemologies, general research methodologies, and quantitative paradigms.
 
 <img src="./images/USF.jpg">
