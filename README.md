@@ -40,3 +40,5 @@ The main statistical software package we are using in this course is "R" and the
 ## Resources:
 *R for Data Science*, by Hadley Wickham and Garrett Grolemund, https://r4ds.had.co.nz/index.html  
 *Statistics for the Behavioral Sciences*, 10th Edition by Frederick Gravetter and Larry Wallnau, Wadsworth
+
+Copyright © 2020 Norman Lo
