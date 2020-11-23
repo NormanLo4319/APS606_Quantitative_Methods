@@ -19,7 +19,7 @@ This course aims to look at the critical approaches to Asia Pacific research dev
 - Central Tendency Theroem
 - Sampling Distribution
 - t Statistic and p-value
-- Condendience Interval
+- Confidence Interval
 
 ### IV. Introduction to Hypothesis Testing
 - Hypothesis Testing (sigma is Known)
