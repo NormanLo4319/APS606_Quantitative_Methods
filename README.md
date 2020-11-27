@@ -16,7 +16,7 @@ This course aims to look at the critical approaches to Asia Pacific research dev
 - Basic Probability Questions with Normal Distribution
 
 ### III. Introduction to Sampling Distribution
-- Central Tendency Theroem
+- Central Limit Theroem
 - Sampling Distribution
 - t Statistic and p-value
 - Confidence Interval
