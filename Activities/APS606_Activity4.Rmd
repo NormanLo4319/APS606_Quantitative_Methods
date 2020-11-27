@@ -1,5 +1,5 @@
 ---
-title: "BUSAD40 - Business Statistics"
+title: "APS606 Quantitative Methods"
 subtitle: "Online Activity 4"
 author: "Your Name"
 date: "8/24/2020"
@@ -64,7 +64,7 @@ A market research surveyed 200 random residents in California about their willin
 
 a. Create the 95% confidence intervals to demonstrates the willingness to pay for the mobile phone service in California.
 
-b. Create a null hypothesis ($\bar{x} = \mu$) and run the testing at significant level $\alpha$ = 0.05. Note: this is an two-tail test.
+b. Create a null hypothesis ($\bar{x} = \mu$) and run the testing at significant level $\alpha$ = 0.05. Note: this is a two-tail test.
 
 c. Make a conclusion about the test result.
 

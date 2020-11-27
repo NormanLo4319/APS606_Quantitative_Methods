@@ -1,5 +1,5 @@
 ---
-title: "BUSAD40 - Business Statistics"
+title: "APS606 Quantitative Methods"
 subtitle: "Online Activity 1"
 author: "Your Name"
 date: "8/24/2020"
