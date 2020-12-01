@@ -32,7 +32,7 @@ This course aims to look at the critical approaches to Asia Pacific research dev
 - Interpretation of the Estimated Parameters
 - Evaluate the Estimated Parameters
 - Evaluate the Overall Model Fit
-- Mutiple Linear Regression Model
+- Multiple Linear Regression Model
 
 ## Software:
 The main statistical software package we are using in this course is "R" and the Integrated Development Environment, IDEs, "R Studio". To install R, you can find visit the [R-Project](https://www.r-project.org/) website and follow the instructions to install the software on your machine.  Once R is installed on your machine, you can visit the [RStudio](https://rstudio.com/products/rstudio/download/) website and follow the instructions to install the IDE on your machine. To start coding in R, we only need to start RStudio because it automatically runs the R software in the background and execute the code.
