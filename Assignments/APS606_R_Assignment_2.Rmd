@@ -77,7 +77,7 @@ print(paste("The score that is at 90th percentile in the data set is ", ))
 
 ### Question 2
 
-Let’s assume we oversee quality control for a computer factory. The production line makes 50 computers per hour. The defective computer must be reworked. We know that there is a 5% error rate (defective rate). We simulate the numbers of defects will need to be fixed each hour for 1000 hours of production. Answer the following questions with your code.
+Suppose we are randomly selecting 20 students in 100 South East Asia regions for an interview about their family status and education opportunity. Given the historical success rate for student entering college is about 30% in these regions.  Answer the following question about this random sample selection process based on the simulated data.
 
 a. Plot a histogram to show the distribution of the simulated data.
 
@@ -85,27 +85,23 @@ b. Print the mean and sd of the simulated data.
 
 c. What type of the distribution do we call this?  According to the histogram, what is the shape of the distribution? (Skew to the left, skew to the right, or center in the middle) 
 
-d. What is the probability for finding exactly 1 defective computer from **one hour** of production? P(X = 1)
+d. What is the probability that 5 out of the 20 students in the interview would go to college? P(X = 5)
 
-e. What is the probability for finding exactly 15 defective computers from **four hours** of production? P(X = 15)
+e. What is the probability that 3 or less of the 20 students in the interview would go to college? P(X <= 3)
 
-f. What is the probability for finding 40 or more defective computers from **two days** of production (8 hours of production per day)? P(X >= 40)
+f. What is the probability that 8 or more of the 20 students in the interview would go to college? P(X >= 20)
 
-g. What is the number of defective computers from **eight hours** of production that yields 75th quantile of the distribution? P(X < x) = 0.75
+g. What is the number of students in the 20 students interview would yield the 80th percentile from the sample selection? P(X < x) = 0.80
 
-h. Suppose the company only accepts 5% of defective rate to approve for shipment. In a regular inspection, you inspected eight hours of production and found 43 defected computers. Should you approve for shipment? What is the chance you would get 43 or more defects from eight hours of production?
-(Hint: You can use pbinom() functions for this problem.)
 
 ```{r}
-n <- rbinom(1000, 50, 0.05)
+n <- rbinom(100, 20, 0.3)
 
 # Enter your code here!
 # Part a
 
 
-
 # Part b
-
 
 
 # Part c
@@ -116,26 +112,22 @@ print("This distribution is called ______________ and the shape of the data dist
 # Part d
 
 
-print(paste("The probability to find exactly 1 defective computer from one hour of production is ", ))
+print(paste("The probability that 5 out of the 20 students in the interview would go to college is ", ))
 
 # Part e
 
 
-print(paste("The probability to find exactly 15 defective computers from four hours of production is ", ))
+print(paste("The probability that 3 or less out of the 20 students in the interview would go to college is ", ))
 
 # Part f
 
 
-print(paste("The probability to find 40 or more defective computers from two days of production is ", ))
+print(paste("The probability that 8 or more out of the 20 students in the interview would go to college is ", ))
 
 # Part g
 
 
-print(paste("There is a 50% chance to find ",  , " or less defective computers from 8 hours of production."))
+print(paste("There is a 80% chance to find ",  , " or less student in the 20 students interview would go to college."))
 
-# Part h
-
-
-print("The shipment should (be approved / not be approved).")
 
 ```
