@@ -94,9 +94,11 @@ b. $\mu$ = 48.2, $\bar{x}$ = 50, $s$ = 8.3, $n$ = 33
 
 ### Question 5
 
-In a tech company, a project manager is planning on running an online promotion, which offers a 50% discount promotion code on their service for the first three months. The previous promotion events show the average revenue per account is \$488 with standard deviation \$52. Suppose the manager started with 100 existing accounts to send them the code. The average revenue returned from the 100 accounts is \$500 with standard deviation \$68.  Answer the following question based on the given information.
+Suppose you are working as a researcher in a social science institution. Your team is currently working on a project that studies how much time Asian female would spend time doing exercise in a week. The institution randomly selected total of 200 females from different South East Asia countries to conduct an interview about their weekly schedule. The average reported exercise time per week from these 200 Asian females is 113 minutes with standard deviation 21 minutes. There was a similar interview was conducted last year in South East Asia with the general population average exercise time per week is 72 minutes with standard deviation 17 minutes. Given this information, you are asked to build a hypothesis test to answer the following question:
 
-a. Create the 95% confidence intervals to demonstrates the potential return from the online promotion.
+**Do Asian female, on average, spending more time doing exercise in a week than the general Asian population?**
+
+a. Create the 95% confidence intervals to demonstrates the range of the average exercise time per week from the randomly selected samples.
 
 b. Test the hypothesis ($\bar{x} \geq \mu$) and run the testing at significant level $\alpha$ = 0.01. Note: this is a one-sided test. Remember to follow the 4-step procedure.
 
@@ -121,10 +123,10 @@ Ans:
 
 ### Question 6
 
-Suppose the US population average height is 64.68 inches, and we would like to test if players in the WBA league is statistically higher than an average US citizen at 5% significant level. Given the WNBA data set, we have the record of the WNBA players and setup our hypothesis testing. Your task is to run the hypothesis test in R and write a conclusion statement from the test.
+Suppose we are conducting a study about the female basketball althelets between the U.S. and Austrlia. We would like to test if players in the WNBA league (in the U.S.) is statistically higher than an average WNBL league (in Australia) at 5% significant level. From a given report, we learned that the average height of the WNBL players is 74.68 inches. Given the WNBA data set, we have the record of the WNBA players and setup our hypothesis testing. Your task is to run the hypothesis test in R and write a conclusion statement from the test.
 
-$H_o: \mu_{WNBA} \leq \mu_{US}$  
-$H_a: \mu_{WNBA} > \mu_{US}$  
+$H_o: \mu_{WNBA} \leq \mu_{WNBL}$  
+$H_a: \mu_{WNBA} > \mu_{WNBL}$  
 $\alpha = 0.05$
 
 ```{r, echo=FALSE}
