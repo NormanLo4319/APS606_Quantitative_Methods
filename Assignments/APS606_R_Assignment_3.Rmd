@@ -94,9 +94,9 @@ b. $\mu$ = 48.2, $\bar{x}$ = 50, $s$ = 8.3, $n$ = 33
 
 ### Question 5
 
-Suppose you are working as a researcher in a social science institution. Your team is currently working on a project that studies how much time Asian female would spend time doing exercise in a week. The institution randomly selected total of 200 females from different South East Asia countries to conduct an interview about their weekly schedule. The average reported exercise time per week from these 200 Asian females is 113 minutes with standard deviation 21 minutes. There was a similar interview was conducted last year in South East Asia with the general population average exercise time per week is 72 minutes with standard deviation 17 minutes. Given this information, you are asked to build a hypothesis test to answer the following question:
+Suppose you are working as a researcher in a social science institution. Your team is currently working on a project that studies how much time Asian female would spend time on doing exercise in a week. The institution randomly selected 200 females across different South East Asia countries to conduct surveys about their weekly schedule. The average exercise time per week from the 200 candidates is 113 minutes with standard deviation 21 minutes. There was a similar interview was conducted last year in South East Asia with the general population average exercise time per week is 72 minutes with standard deviation 17 minutes. Given this information, you are asked to build a hypothesis test to answer the following question:
 
-**Do Asian female, on average, spending more time doing exercise in a week than the general Asian population?**
+**Does Asian female, on average, spending more time on doing exercise in a week than the general Asian population?**
 
 a. Create the 95% confidence intervals to demonstrates the range of the average exercise time per week from the randomly selected samples.
 
@@ -123,7 +123,7 @@ Ans:
 
 ### Question 6
 
-Suppose we are conducting a study about the female basketball althelets between the U.S. and Austrlia. We would like to test if players in the WNBA league (in the U.S.) is statistically higher than an average WNBL league (in Australia) at 5% significant level. From a given report, we learned that the average height of the WNBL players is 74.68 inches. Given the WNBA data set, we have the record of the WNBA players and setup our hypothesis testing. Your task is to run the hypothesis test in R and write a conclusion statement from the test.
+Suppose we are conducting a study about the female basketball athletes between the U.S. and Australia. We are interested to test if players in the WNBA league (in the U.S.) is statistically taller than an average WNBL league (in Australia) at 5% significant level. From a given report, we learned that the average height of the WNBL players is 74.68 inches. Given the WNBA data set, we have the record of the WNBA players and setup our hypothesis testing. Your task is to run the hypothesis test in R and write a conclusion statement from the test.
 
 $H_o: \mu_{WNBA} \leq \mu_{WNBL}$  
 $H_a: \mu_{WNBA} > \mu_{WNBL}$  
@@ -142,3 +142,33 @@ head(wnba)
 #### Conclusion:
 
 Ans:
+
+
+
+### Question 5
+
+Suppose you are working on a research project that focus on the education system in Asia Pacific regions. Your team is granted the access to 250 higher education institutions in the Asian Pacific regions.  Given the access to this data source, your team would like to build a hypothesis test to answer the following research question:
+
+**Does scholarship matter to low income family child in Asia?**
+
+Given the data, we found that the average graduation rate for students, who come from low income family (defined domestically), received the scholarship is 85.67% with standard deviation 2.45%.  On the other hand, the average graduation rate for students, who are not coming from low income family, received the scholarship is 79.43% with standard deviation 2.38%.  Based on this information, try to answer the research question with the hypothesis test setup.
+
+a. Write out the hypothesis statements.
+
+b. Test the hypothesis ($\bar{x} \geq \mu$) and run the testing at significant level $\alpha$ = 0.01. Note: this could be a two-tailed or a one-tailed test. 
+
+c. Make a conclusion about this test.
+
+
+```{r}
+# Enter your code here!
+# Part b
+
+
+# Part c
+
+```
+
+#### Conclusion:
+
+Ans: 

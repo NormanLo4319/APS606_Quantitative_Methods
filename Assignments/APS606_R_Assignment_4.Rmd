@@ -21,16 +21,18 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Question 1
 
-In this exercise, we will examine the **Carseats** data, which is part of the ISLR library. We will attempt to model **Sales** (child car seat sales) in 400 locations based on an independent variable.
+In this exercise, we will examine the **happy** data in the data folder. We will attempt to model **happiness** (happiness of the population) in 191 countries based on an independent variable.
 
 ```{r, echo=FALSE}
-library(ISLR)
-carseats <- subset(Carseats, select = c("Sales", "Price", "Income",
-                                    "Advertising", "Population"))
-head(carseats)
+library(readr)
+happy <- read_csv("data/happiness.csv")
+happy <- happy[c("country_name", "population", "year", "gdp", "gdpPerCap", "gini", "happiness")]
+happy <- na.omit(happy)
+
+head(happy)
 ```
 
-a. Create the descriptive summary for the data set, **carseats**.
+a. Create the descriptive summary for the data set, **happy**.
 
 ```{r}
 # Enter your code here!
@@ -38,17 +40,7 @@ a. Create the descriptive summary for the data set, **carseats**.
 
 ```
 
-b. Create a pairs plot to display the correlations between all variables.  Can you make a good judgement which variable correlated with **Sales** the most?
-
-```{r}
-# Enter your code here!
-
-
-```
-
-Ans: 
-
-c. Use the correlation function to calculate the correlation between all the variables in the data set. Which variable has the highest correlation to **Sales**?
+b. Create a pairs plot to display the correlations between all variables.  Can you make a good judgement which variable correlated with **happiness** the most?
 
 ```{r}
 # Enter your code here!
@@ -58,7 +50,17 @@ c. Use the correlation function to calculate the correlation between all the var
 
 Ans: 
 
-d. According to **part c**, use the variable you found to fit the simple linear regression and print the summary output of the model. Hint: the dependent variable is **Sales** and the independent variable is your answer in part c. 
+c. Use the correlation function to calculate the correlation between all the variables in the data set. Which variable has the highest correlation to **happiness** (in absolute value)?
+
+```{r}
+# Enter your code here!
+cor(happy[-c(1)])
+mean(happy$gdpPerCap)
+```
+
+Ans: 
+
+d. According to **part c**, use the variable you found to fit the simple linear regression and print the summary output of the model. Hint: the dependent variable is **happiness** and the independent variable is your answer in part c. 
 
 ```{r}
 # Enter your code here!
@@ -78,7 +80,7 @@ Ans:
 
 Applying the same data set, let's try to answer the following questions.
 
-a. Use the model in **Question 1, part d**, predict the **Sales** given the price of the car seat \$50, \$100, and \$150.
+a. Use the model in **Question 1, part d**, predict the **happiness** given the gdpPerCap is 10000, 15000, and 20000.
 
 ```{r}
 # Enter your code here!
@@ -96,7 +98,7 @@ b. Create a 95% confidence interval for your prediction in **part a**.
 ```
 
 
-c. Create a scatter plot for **Sales** and the independent variable in your model, then put the fitted model line to the graph. Hint: the independent should always be on the x-axis and the fitted line is using the abline() function in R.
+c. Create a scatter plot for **happyiness** and the independent variable in your model, then plot the fitted model line to the graph. Hint: the independent should always be on the x-axis and the fitted line is using the abline() function in R.
 
 ```{r}
 # Enter your code here!
